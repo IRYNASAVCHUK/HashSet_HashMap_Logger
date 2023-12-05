@@ -2,15 +2,26 @@ package hashset;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.logging.Logger;
+
+import logger.MyLogger;
 
 public class MyHashSet {
+    private static final Logger logger = MyLogger.getLogger();
     Set<Customer> customers;
 
-    public MyHashSet() { this.customers = new HashSet<>(); }
+    public MyHashSet() { 
+        logger.entering(getClass().getName(), "MyHashSet");
+        this.customers = new HashSet<>(); 
+    }
 
     public void addCustomer(String name) {
+        logger.entering(getClass().getName(), "addCustomer",new Object[]{name});
         long nextId = getNextId();
-        customers.add(new Customer(nextId, name));
+        Customer e = new Customer(nextId, name);
+        customers.add(e);
+        logger.fine("Added customer: " + name + " with ID: " + nextId);
+        logger.exiting(getClass().getName(), "addCustomer",e);
     }
 
     private long getNextId() {

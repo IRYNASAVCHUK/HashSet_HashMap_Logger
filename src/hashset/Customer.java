@@ -1,10 +1,15 @@
 package hashset;
 
+import java.util.logging.Logger;
+import logger.MyLogger;
+
 class Customer {
+    private static final Logger logger = MyLogger.getLogger();
     private long id;
     private String name;
 
     public Customer(long id, String name) {
+        logger.entering(getClass().getName(), "Customer", new Object[]{id, name});
         this.id = id;
         this.name = name;
     }

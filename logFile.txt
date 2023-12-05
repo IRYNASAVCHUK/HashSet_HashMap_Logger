@@ -1,0 +1,171 @@
+{
+"timestamp":"2023-12-05 11:57:16.935",
+"sequence number":"0",
+"class":"hashset.MyHashSet",
+"method":"MyHashSet",
+"thread ID":"1",
+"level":"FINER",
+"message":"ENTRY"
+}
+{
+"timestamp":"2023-12-05 11:57:16.972",
+"sequence number":"1",
+"class":"hashset.MyHashSet",
+"method":"addCustomer",
+"thread ID":"1",
+"level":"FINER",
+"message":"ENTRY {0}"
+}
+{
+"timestamp":"2023-12-05 11:57:16.972",
+"sequence number":"2",
+"class":"hashset.Customer",
+"method":"Customer",
+"thread ID":"1",
+"level":"FINER",
+"message":"ENTRY {0} {1}"
+}
+{
+"timestamp":"2023-12-05 11:57:16.975",
+"sequence number":"3",
+"class":"hashset.MyHashSet",
+"method":"addCustomer",
+"thread ID":"1",
+"level":"FINE",
+"message":"Added customer: Rajeev with ID: 1"
+}
+{
+"timestamp":"2023-12-05 11:57:16.977",
+"sequence number":"4",
+"class":"hashset.MyHashSet",
+"method":"addCustomer",
+"thread ID":"1",
+"level":"FINER",
+"message":"RETURN {0}"
+}
+{
+"timestamp":"2023-12-05 11:57:16.977",
+"sequence number":"5",
+"class":"hashset.MyHashSet",
+"method":"addCustomer",
+"thread ID":"1",
+"level":"FINER",
+"message":"ENTRY {0}"
+}
+{
+"timestamp":"2023-12-05 11:57:16.977",
+"sequence number":"6",
+"class":"hashset.Customer",
+"method":"Customer",
+"thread ID":"1",
+"level":"FINER",
+"message":"ENTRY {0} {1}"
+}
+{
+"timestamp":"2023-12-05 11:57:16.977",
+"sequence number":"7",
+"class":"hashset.MyHashSet",
+"method":"addCustomer",
+"thread ID":"1",
+"level":"FINE",
+"message":"Added customer: Sachin with ID: 2"
+}
+{
+"timestamp":"2023-12-05 11:57:16.977",
+"sequence number":"8",
+"class":"hashset.MyHashSet",
+"method":"addCustomer",
+"thread ID":"1",
+"level":"FINER",
+"message":"RETURN {0}"
+}
+{
+"timestamp":"2023-12-05 11:57:16.978",
+"sequence number":"9",
+"class":"hashset.MyHashSet",
+"method":"addCustomer",
+"thread ID":"1",
+"level":"FINER",
+"message":"ENTRY {0}"
+}
+{
+"timestamp":"2023-12-05 11:57:16.978",
+"sequence number":"10",
+"class":"hashset.Customer",
+"method":"Customer",
+"thread ID":"1",
+"level":"FINER",
+"message":"ENTRY {0} {1}"
+}
+{
+"timestamp":"2023-12-05 11:57:16.978",
+"sequence number":"11",
+"class":"hashset.MyHashSet",
+"method":"addCustomer",
+"thread ID":"1",
+"level":"FINE",
+"message":"Added customer: Chris with ID: 3"
+}
+{
+"timestamp":"2023-12-05 11:57:16.978",
+"sequence number":"12",
+"class":"hashset.MyHashSet",
+"method":"addCustomer",
+"thread ID":"1",
+"level":"FINER",
+"message":"RETURN {0}"
+}
+{
+"timestamp":"2023-12-05 11:57:16.978",
+"sequence number":"13",
+"class":"hashset.MyHashSet",
+"method":"addCustomer",
+"thread ID":"1",
+"level":"FINER",
+"message":"ENTRY {0}"
+}
+{
+"timestamp":"2023-12-05 11:57:16.978",
+"sequence number":"14",
+"class":"hashset.Customer",
+"method":"Customer",
+"thread ID":"1",
+"level":"FINER",
+"message":"ENTRY {0} {1}"
+}
+{
+"timestamp":"2023-12-05 11:57:16.978",
+"sequence number":"15",
+"class":"hashset.MyHashSet",
+"method":"addCustomer",
+"thread ID":"1",
+"level":"FINE",
+"message":"Added customer: Rajeev with ID: 4"
+}
+{
+"timestamp":"2023-12-05 11:57:16.978",
+"sequence number":"16",
+"class":"hashset.MyHashSet",
+"method":"addCustomer",
+"thread ID":"1",
+"level":"FINER",
+"message":"RETURN {0}"
+}
+{
+"timestamp":"2023-12-05 11:57:16.982",
+"sequence number":"17",
+"class":"hashset.Customer",
+"method":"Customer",
+"thread ID":"1",
+"level":"FINER",
+"message":"ENTRY {0} {1}"
+}
+{
+"timestamp":"2023-12-05 11:57:16.982",
+"sequence number":"18",
+"class":"hashset.Customer",
+"method":"Customer",
+"thread ID":"1",
+"level":"FINER",
+"message":"ENTRY {0} {1}"
+}
