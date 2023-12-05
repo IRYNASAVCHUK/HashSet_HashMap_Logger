@@ -3,10 +3,10 @@ package hashset;
 import java.util.HashSet;
 import java.util.Set;
 
-public class HashSetExample {
+public class MyHashSet {
 Set<Customer> customers;
 
-    public HashSetExample() {
+    public MyHashSet() {
         this.customers = new HashSet<>();
     }
 

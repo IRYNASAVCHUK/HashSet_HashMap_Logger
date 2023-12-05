@@ -3,7 +3,7 @@ package hashset;
 public class Main {
 
     public static void main(String[] args) {
-        final HashSetExample example = new HashSetExample();
+        final MyHashSet example = new MyHashSet();
 
         example.addCustomer("Rajeev");
         example.addCustomer("Sachin");
