@@ -4,11 +4,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class MyHashSet {
-Set<Customer> customers;
+    Set<Customer> customers;
 
-    public MyHashSet() {
-        this.customers = new HashSet<>();
-    }
+    public MyHashSet() { this.customers = new HashSet<>(); }
 
     public void addCustomer(String name) {
         long nextId = getNextId();
@@ -23,19 +21,11 @@ Set<Customer> customers;
         return maxId + 1;
     }
 
-    public void removeCustomer(long id) {
-        customers.remove(new Customer(id, ""));
-    }
+    public void removeCustomer(long id) { customers.remove(new Customer(id, ""));}
 
-    public boolean containsCustomer(long id) {
-        return customers.contains(new Customer(id, ""));
-    }
+    public boolean containsCustomer(long id) { return customers.contains(new Customer(id, ""));}
 
-    public int getSize() {
-        return customers.size();
-    }
+    public int getSize() {return customers.size(); }
 
-    public void clearSet() {
-        customers.clear();
-    }
+    public void clearSet() { customers.clear();}
 }
